@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurul Khairina Mohd Akhir | Professional Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Typography Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .bg-corporate-dark { background-color: #0A1D37; }
+        .bg-corporate-blue { background-color: #0F2C59; }
+        .text-gold { color: #C5A880; }
+        .bg-gold { background-color: #C5A880; }
+        .border-gold { border-color: #C5A880; }
+        .hover-bg-gold-dark:hover { background-color: #B3966E; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+    <!-- STICKY TOP NAVIGATION BAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-corporate-dark/95 backdrop-blur-md border-b border-white/10 text-white shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <span class="text-xl font-bold tracking-wider font-heading">NURUL <span class="text-gold">KHAIRINA</span></span>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="ml-10 flex items-center space-x-6 text-xs uppercase font-semibold tracking-widest">
+                        <a href="#hero" class="hover:text-gold transition-colors">Hero</a>
+                        <a href="#about" class="hover:text-gold transition-colors">About</a>
+                        <a href="#education" class="hover:text-gold transition-colors">Education</a>
+                        <a href="#experience" class="hover:text-gold transition-colors">Experience</a>
+                        <a href="#projects" class="hover:text-gold transition-colors">Projects</a>
+                        <a href="#skills" class="hover:text-gold transition-colors">Skills</a>
+                        <a href="#awards" class="hover:text-gold transition-colors">Awards</a>
+                        <a href="#volunteer" class="hover:text-gold transition-colors">Volunteer</a>
+                        <a href="#contact" class="bg-gold hover-bg-gold-dark text-corporate-dark px-4 py-2 rounded font-bold transition-all shadow-md">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO MAIN HEADER SECTION -->
+    <header id="hero" class="pt-24 min-h-screen bg-corporate-dark text-white relative flex items-center overflow-hidden pb-16 lg:pb-0">
+        <!-- Abstract Branding Accent Elements -->
+        <div class="absolute bottom-0 right-0 w-full h-1/2 bg-gradient-to-t from-corporate-blue/40 to-transparent pointer-events-none"></div>
+        <div class="absolute -bottom-16 -left-16 w-96 h-96 bg-gold/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Narrative Content Column -->
+                <div class="lg:col-span-7 order-2 lg:order-1 space-y-6 text-center lg:text-left">
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight font-heading leading-tight uppercase">
+                        NURUL KHAIRINA<br><span class="text-gold">MOHD AKHIR</span>
+                    </h1>
+                    <p class="text-sm sm:text-base text-slate-300 tracking-wide font-medium max-w-2xl mx-auto lg:mx-0 border-t lg:border-t-0 lg:border-l-4 border-gold pt-4 lg:pt-0 lg:pl-4">
+                        Real Estate Management Student | Aspiring Property Valuer | Estate Agency Professional
+                    </p>
+                    
+                    <!-- Dashboard Statistics Counters Module -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl mx-auto lg:mx-0 pt-4">
+                        <div class="bg-white/5 border border-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
+                            <div class="text-xl sm:text-2xl font-bold font-heading text-gold">310</div>
+                            <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold mt-0.5">Estate Agents Surveyed</div>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
+                            <div class="text-xl sm:text-2xl font-bold font-heading text-gold">30+</div>
+                            <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold mt-0.5">Property Inspections</div>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
+                            <div class="text-xl sm:text-2xl font-bold font-heading text-gold">100+</div>
+                            <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold mt-0.5">Listings Managed</div>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
+                            <div class="text-xl sm:text-2xl font-bold font-heading text-gold">3.67</div>
+                            <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold mt-0.5">Current CGPA</div>
+                        </div>
+                    </div>
+
+                    <!-- Call To Action Interaction Triggers -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#projects" class="bg-gold hover-bg-gold-dark text-corporate-dark font-bold px-6 py-3 rounded text-sm uppercase tracking-wider transition-all shadow-lg">Explore Projects</a>
+                        <a href="#contact" class="border border-white/30 hover:border-white text-white font-semibold px-6 py-3 rounded text-sm uppercase tracking-wider transition-all">Contact Me</a>
+                    </div>
+                </div>
+
+                <!-- Right Profile Image Wrapper showcasing WhatsApp Image 2026-06-14 at 5.46.02 AM_2.jpeg -->
+                <div class="lg:col-span-5 order-1 lg:order-2 flex justify-center lg:justify-end">
+                    <div class="relative w-72 h-72 sm:w-85 sm:h-85 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border-2 border-gold/50 shadow-2xl bg-white p-2">
+                        ```html
+   <img src="profile.jpeg" alt="Nurul Khairina Mohd Akhir Portfolio" ...>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. ABOUT ME SUMMARY SECTION -->
+    <section id="about" class="py-24 bg-corporate-dark text-white relative">
+        <!-- Visual Wave Contour Cut Layer Separator -->
+        <div class="absolute bottom-0 left-0 right-0 h-16 bg-white rounded-t-[50px] lg:rounded-t-[100px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 relative z-10">
+            <div class="space-y-6 text-center">
+                <h2 class="text-3xl font-bold font-heading tracking-tight uppercase">About Me</h2>
+                <div class="h-0.5 w-12 bg-gold mx-auto"></div>
+                <p class="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto pt-2">
+                    I am a driven Bachelor of Real Estate Management (Hons) student at Universiti Teknologi MARA (UiTM), recognized with Dean's List honors. I am passionate about applying academic knowledge practically; through my real-world industry background, I have gained hands-on experience in property valuation support, extensive site inspections, market research analysis, and real estate sales transactions.
+                </p>
+                <p class="text-base sm:text-lg text-gold font-medium">
+                    Seeking a professional placement as a Property Management Intern, Valuer, or Estate Agent from 27 September 2026 until 28 January 2027.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. EDUCATION CHRONOLOGY SECTION -->
+    <section id="education" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16">
+                <h2 class="text-2xl font-bold font-heading text-corporate-dark uppercase tracking-wide">Education</h2>
+                <div class="h-0.5 w-12 bg-gold mt-2"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Undergrad Program Card -->
+                <div class="bg-slate-50 rounded-xl p-6 border border-slate-100 flex items-start space-x-4 shadow-sm">
+                    <div class="bg-corporate-blue text-gold p-3 rounded-lg flex-shrink-0">
+                        <i class="fa-solid fa-graduation-cap text-xl"></i>
+                    </div>
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold text-gold tracking-wider uppercase">Oct 2024 - Jan 2027</span>
+                        <h3 class="font-bold text-lg text-corporate-dark font-heading leading-tight">Bachelor in Real Estate Management (Hons)</h3>
+                        <p class="text-sm font-medium text-slate-500">Universiti Teknologi MARA (UiTM) | Seri Iskandar, Perak</p>
+                        <ul class="text-xs text-slate-600 space-y-1 pt-2 list-disc list-inside">
+                            <li>Current Academic Cumulative Grade: 3.67</li>
+                            <li>Dean's List Award Distinction for Semester 5</li>
+                            <li>Specialized focus on asset evaluation frameworks & real estate systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Diploma Program Card -->
+                <div class="bg-slate-50 rounded-xl p-6 border border-slate-100 flex items-start space-x-4 shadow-sm">
+                    <div class="bg-corporate-blue text-gold p-3 rounded-lg flex-shrink-0">
+                        <i class="fa-solid fa-certificate text-xl"></i>
+                    </div>
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold text-gold tracking-wider uppercase">Oct 2022 - July 2024</span>
+                        <h3 class="font-bold text-lg text-corporate-dark font-heading leading-tight">Diploma in Estate Management</h3>
+                        <p class="text-sm font-medium text-slate-500">Universiti Teknologi MARA (UiTM) | Seri Iskandar, Perak</p>
+                        <ul class="text-xs text-slate-600 space-y-1 pt-2 list-disc list-inside">
+                            <li>Graduated Academic Performance: 3.33 CGPA</li>
+                            <li>JPA National Scholarship Academic Beneficiary Recipient</li>
+                            <li>Malaysian University English Test (MUET): Band 3.50 Assessment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. WORK EXPERIENCE VERTICAL TIMELINE SECTION -->
+    <section id="experience" class="py-20 bg-corporate-dark text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 text-center md:text-left">
+                <h2 class="text-2xl font-bold font-heading uppercase tracking-wide">Work Experience</h2>
+                <div class="h-0.5 w-12 bg-gold mt-2 mx-auto md:mx-0"></div>
+            </div>
+
+            <div class="space-y-8 max-w-4xl mx-auto">
+                <!-- Professional Placement 1 -->
+                <div class="bg-white/5 border border-white/10 rounded-xl p-6 md:p-8 space-y-4 hover:border-gold/30 transition-all shadow-md">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-white/10 pb-4">
+                        <div>
+                            <span class="text-xs font-bold text-gold uppercase tracking-widest block mb-1">July 2024 - Present</span>
+                            <h3 class="text-xl font-bold font-heading">Real Estate Negotiator</h3>
+                            <p class="text-sm text-slate-400">Esp Esprit Estate Agent Sdn Bhd | Sungai Petani, Kedah</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300 list-none pl-0">
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Advised 4-6 corporate and residential clients weekly on physical asset purchases, commercial financing options, and fluctuating market conditions.</li>
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Coordinated property sales and strategic rental transactions smoothly between buyers, asset sellers, and external financial institutions.</li>
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Generated qualified listing pipelines through industry networking, active agent referrals, and direct client prospecting.</li>
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Conducted deep macro market research and comparative property metrics analysis to back up asset pricing matrices.</li>
+                    </ul>
+                </div>
+
+                <!-- Professional Placement 2 -->
+                <div class="bg-white/5 border border-white/10 rounded-xl p-6 md:p-8 space-y-4 hover:border-gold/30 transition-all shadow-md">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-white/10 pb-4">
+                        <div>
+                            <span class="text-xs font-bold text-gold uppercase tracking-widest block mb-1">March 2024 - July 2024</span>
+                            <h3 class="text-xl font-bold font-heading">Interpretation Intern</h3>
+                            <p class="text-sm text-slate-400">Esp Esprit Estate Agent Sdn Bhd | Sungai Petani, Kedah</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300 list-none pl-0">
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Formally assisted in over 30+ physical asset property inspections covering residential blocks, office footprints, and industrial plants.</li>
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Collected regional transaction values to successfully organize and maintain 100+ active properties for valuation workflows.</li>
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Verified local real estate data fields and prepared supporting background packs for legal valuation files.</li>
+                        <li class="flex items-start"><span class="text-gold mr-3 mt-0.5">&#9642;</span> Built promotional materials and handled multi-platform social media output using advanced Canva Pro graphic frameworks.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ACADEMIC HIGHLIGHT PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 text-center">
+                <h2 class="text-2xl font-bold font-heading text-corporate-dark uppercase tracking-wide">Academic Projects</h2>
+                <div class="h-0.5 w-12 bg-gold mt-2 mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Academic Display 1 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-lg bg-corporate-blue/5 flex items-center justify-center text-corporate-blue">
+                            <i class="fa-solid fa-vr-cardboard text-xl"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-corporate-dark font-heading leading-tight">VR Technology Perceptions in Kedah</h3>
+                        <p class="text-xs font-semibold text-gold uppercase tracking-wider">Final Year Research Project</p>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Led an academic survey with 310 registered estate agents to break down core operational dynamics affecting Virtual Reality (VR) technology acceptance and system adoption criteria throughout the Kedah property sector.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-4 border-t border-slate-200/60 flex flex-wrap gap-1">
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">SPSS Analysis</span>
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">Market Technology</span>
+                    </div>
+                </div>
+
+                <!-- Academic Display 2 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-lg bg-corporate-blue/5 flex items-center justify-center text-corporate-blue">
+                            <i class="fa-solid fa-map-location-dot text-xl"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-corporate-dark font-heading leading-tight">REMPEX RM50M+ Master Proposal</h3>
+                        <p class="text-xs font-semibold text-gold uppercase tracking-wider">Property Development Exhibition</p>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Formulated an extensive mixed-use commercial design layout valuing above RM50 million. Conducted full feasibility tracking matrices, spatial site valuation plans, and generated vector drawings in AutoCAD and Revit.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-4 border-t border-slate-200/60 flex flex-wrap gap-1">
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">AutoCAD</span>
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">Revit</span>
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">GIS Mapping</span>
+                    </div>
+                </div>
+
+                <!-- Academic Display 3 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-lg bg-corporate-blue/5 flex items-center justify-center text-corporate-blue">
+                            <i class="fa-solid fa-award text-xl"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-corporate-dark font-heading leading-tight">PRiDE Showcase Best Poster Award</h3>
+                        <p class="text-xs font-semibold text-gold uppercase tracking-wider">Product Idea Innovation</p>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Co-developed a multifunctional safety apparatus system for hikers. Managed the vector art blueprinting and layout, winning the premier "Best Poster Award" over 20+ rival academic project teams.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-4 border-t border-slate-200/60 flex flex-wrap gap-1">
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">Canva Pro</span>
+                        <span class="bg-corporate-blue/5 text-corporate-blue text-[10px] font-bold px-2 py-0.5 rounded uppercase">Visual Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. TECHNICAL SKILLS & MARKET EXPERTISE DRILLDOWN -->
+    <section id="skills" class="py-20 bg-slate-50 border-t border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Skill Grid Badges block -->
+                <div class="lg:col-span-7">
+                    <h2 class="text-2xl font-bold font-heading text-corporate-dark uppercase tracking-wide">Technical Competencies</h2>
+                    <div class="h-0.5 w-12 bg-gold mt-2 mb-8"></div>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 text-center shadow-sm">
+                            <i class="fa-solid fa-calculator text-gold text-xl mb-2"></i>
+                            <p class="text-xs font-bold text-corporate-dark tracking-wide uppercase">Property Valuation</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 text-center shadow-sm">
+                            <i class="fa-solid fa-house-laptop text-gold text-xl mb-2"></i>
+                            <p class="text-xs font-bold text-corporate-dark tracking-wide uppercase">Property Inspection</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 text-center shadow-sm">
+                            <i class="fa-solid fa-chart-line text-gold text-xl mb-2"></i>
+                            <p class="text-xs font-bold text-corporate-dark tracking-wide uppercase">Market Research</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 text-center shadow-sm">
+                            <i class="fa-solid fa-square-poll-vertical text-gold text-xl mb-2"></i>
+                            <p class="text-xs font-bold text-corporate-dark tracking-wide uppercase">SPSS / GIS Systems</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 text-center shadow-sm">
+                            <i class="fa-solid fa-compass-drafting text-gold text-xl mb-2"></i>
+                            <p class="text-xs font-bold text-corporate-dark tracking-wide uppercase">AutoCAD & Revit</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 text-center shadow-sm">
+                            <i class="fa-solid fa-cubes text-gold text-xl mb-2"></i>
+                            <p class="text-xs font-bold text-corporate-dark tracking-wide uppercase">Microsoft Office Suite</p>
+                        </div>
+                    </div>
+
+                    <!-- Platform Experience Integration Subpanel -->
+                    <div class="mt-6 bg-white p-4 rounded-xl border border-slate-200/60 shadow-sm">
+                        <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2">Valuation Platform Engine Fluency</h4>
+                        <div class="flex flex-wrap gap-2 text-[11px] font-semibold text-slate-600">
+                            <span class="bg-slate-100 px-2 py-1 rounded">Brickz (Historical Real Estate Data)</span>
+                            <span class="bg-slate-100 px-2 py-1 rounded">EdgeProp Market Insights</span>
+                            <span class="bg-slate-100 px-2 py-1 rounded">iProperty Intelligence</span>
+                            <span class="bg-slate-100 px-2 py-1 rounded">Mudah Asset Tracker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Logistics/Language Capabilities -->
+                <div class="lg:col-span-5">
+                    <h2 class="text-2xl font-bold font-heading text-corporate-dark uppercase tracking-wide">Professional Capabilities</h2>
+                    <div class="h-0.5 w-12 bg-gold mt-2 mb-8"></div>
+                    
+                    <div class="bg-corporate-blue text-white rounded-xl p-6 shadow-md space-y-4">
+                        <div class="flex items-start space-x-3 text-sm">
+                            <i class="fa-solid fa-id-card text-gold text-lg mt-0.5 w-6 text-center"></i>
+                            <span>Active Driving License Class B2 & DA with private vehicle asset logistics. Ready for immediate property travel.</span>
+                        </div>
+                        <div class="flex items-start space-x-3 text-sm">
+                            <i class="fa-solid fa-earth-asia text-gold text-lg mt-0.5 w-6 text-center"></i>
+                            <span>Trilingual Language Proficiency: Bahasa Melayu (Native), English (Advanced), and Arabic (Advanced).</span>
+                        </div>
+                        <div class="flex items-start space-x-3 text-sm">
+                            <i class="fa-solid fa-handshake text-gold text-lg mt-0.5 w-6 text-center"></i>
+                            <span>Proven skill managing networks across property owners, banks, legal associates, and transaction agencies.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. HONORS, LEADERSHIP & AWARDS SECTION -->
+    <section id="awards" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 text-center">
+                <h2 class="text-2xl font-bold font-heading text-corporate-dark uppercase tracking-wide">Honors & Achievements</h2>
+                <div class="h-0.5 w-12 bg-gold mt-2 mx-auto"></div>
+            </div>
+
+            <!-- Awards Metric Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mb-12">
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-id-badge text-gold text-3xl mb-3"></i>
+                    <h4 class="font-bold text-corporate-dark font-heading">UiTM Dean's List Award</h4>
+                    <p class="text-xs text-slate-500 mt-1">Conferred for high academic marks in Semester 5</p>
+                </div>
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-building-columns text-gold text-3xl mb-3"></i>
+                    <h4 class="font-bold text-corporate-dark font-heading">JPA Scholarship Awardee</h4>
+                    <p class="text-xs text-slate-500 mt-1">Granted continuously for holding above a 3.0 GPA every term</p>
+                </div>
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-trophy text-gold text-3xl mb-3"></i>
+                    <h4 class="font-bold text-corporate-dark font-heading">PRiDE Best Poster Honor</h4>
+                    <p class="text-xs text-slate-500 mt-1">Ranked 1st place over 20+ competing innovation panels</p>
+                </div>
+            </div>
+
+            <!-- Co-Curricular Core Additions -->
+            <div class="bg-slate-50 rounded-xl p-6 border border-slate-100">
+                <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-4 font-heading text-center md:text-left">Co-Curricular & Student Leadership Leadership</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-600">
+                    <div class="flex items-start space-x-2">
+                        <span class="text-gold mt-0.5">&#9642;</span>
+                        <span><strong>Multimedia Exco Deputy Head:</strong> Managed organizational brand presentation layouts for Majlis Pimpinan Universiti Rakan Siswa YADIM.</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <span class="text-gold mt-0.5">&#9642;</span>
+                        <span><strong>MASMED Young Entrepreneur Program:</strong> Active startup builder nominee for the prestigious Best Icon business award category.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. COMMUNITY SERVICE VOLUNTEER SECTION -->
+    <section id="volunteer" class="py-20 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 text-center">
+                <h2 class="text-2xl font-bold font-heading text-corporate-dark uppercase tracking-wide">Volunteer Experience</h2>
+                <div class="h-0.5 w-12 bg-gold mt-2 mx-auto"></div>
+            </div>
+
+            <!-- Three Column Civic Grid matching visual reference template perfectly -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+                <div class="p-5 bg-white border border-slate-200/60 rounded-xl shadow-sm space-y-2">
+                    <i class="fa-solid fa-seedling text-gold text-2xl"></i>
+                    <h4 class="font-bold text-sm text-corporate-dark">Environmental Initiatives</h4>
+                    <p class="text-xs text-slate-500">Free Tree Society Ecosystem Activation x EMAS Perak</p>
+                </div>
+                <div class="p-5 bg-white border border-slate-200/60 rounded-xl shadow-sm space-y-2">
+                    <i class="fa-solid fa-users-gear text-gold text-2xl"></i>
+                    <h4 class="font-bold text-sm text-corporate-dark">Community Support</h4>
+                    <p class="text-xs text-slate-500">Pekan Manjung & Orang Asli Jalinan Kasih Programs</p>
+                </div>
+                <div class="p-5 bg-white border border-slate-200/60 rounded-xl shadow-sm space-y-2">
+                    <i class="fa-solid fa-hand-holding-heart text-gold text-2xl"></i>
+                    <h4 class="font-bold text-sm text-corporate-dark">Conservation Advocacy</h4>
+                    <p class="text-xs text-slate-500">Sungkai Wild Life Hub & Segari Turtle Preservation Hubs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CONTACT / FOOTER CHANNELS SECTION -->
+    <footer id="contact" class="bg-corporate-dark text-white pt-20 pb-8 border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                
+                <div class="space-y-4 text-center lg:text-left">
+                    <h2 class="text-3xl font-bold font-heading uppercase tracking-wide">Get In Touch</h2>
+                    <p class="text-slate-400 text-sm max-w-md mx-auto lg:mx-0">
+                        Available for an 18-week corporate industrial internship placement (27 September 2026 – 28 January 2027). Please use the contact details to coordinate interviews or resume validation.
+                    </p>
+                </div>
+
+                <!-- Verified Contact Grid Matrix Rows from Source Bio -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3 bg-white/5 p-3 rounded border border-white/10">
+                            <i class="fa-solid fa-envelope text-gold w-5 text-center"></i>
+                            <a href="mailto:khairinaakhir@gmail.com" class="hover:text-gold transition-colors truncate">khairinaakhir@gmail.com</a>
+                        </div>
+                        <div class="flex items-center space-x-3 bg-white/5 p-3 rounded border border-white/10">
+                            <i class="fa-solid fa-phone text-gold w-5 text-center"></i>
+                            <a href="tel:+601155022829" class="hover:text-gold transition-colors">+6011-55022829</a>
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3 bg-white/5 p-3 rounded border border-white/10">
+                            <i class="fa-brands fa-linkedin text-gold w-5 text-center"></i>
+                            <a href="https://www.linkedin.com/in/khairina-akhir-96a1ab2a7" target="_blank" class="hover:text-gold transition-colors">LinkedIn Profile</a>
+                        </div>
+                        <div class="flex items-center space-x-3 bg-white/5 p-3 rounded border border-white/10">
+                            <i class="fa-solid fa-link text-gold w-5 text-center"></i>
+                            <a href="https://linktr.ee/khaeproperties" target="_blank" class="hover:text-gold transition-colors">Linktree Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-white/5 text-center text-xs text-slate-500">
+            <p>&copy; 2026 Nurul Khairina Mohd Akhir. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
